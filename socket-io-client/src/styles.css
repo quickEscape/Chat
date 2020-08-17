@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.center {
+  width: 50%; /* Ширина слоя */
+  opacity: 0.75; /* Значение прозрачности */
+  padding: 10px; /* Поля вокруг текста */
+  margin: auto; /* Выравниваем по центру */
+  background: rgb(92, 92, 92); /* Цвет фона */
+}
+body {
+  background-color: rgb(46, 46, 46);
+}
+select {
+  background-color: rgb(95, 95, 95);
+}
+button {
+  background-color: rgb(95, 95, 95);
+}
+.chat {
+  background-color: rgb(158, 158, 158);
+}
+input {
+  background-color: rgb(65, 65, 65);
+}
+textarea {
+  background-color: rgb(65, 65, 65);
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  border: 0;
+  margin-bottom: 10px;
+  min-height: 50px;
+  resize: vertical;
+}
